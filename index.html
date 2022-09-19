@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="slider.js" defer></script>
+  <title>Image Slider</title>
+</head>
+
+<body>
+  <main class="img-container">
+    <div class="img-slide" data-img-order="1" data-show-img="true" data-img-clicked="false">
+      <img src="./imgs/image-1.jpg">
+    </div>
+    <div class="img-slide" data-img-order="2" data-show-img="false" data-img-clicked="false">
+      <img src="./imgs/image-2.jpg">
+    </div>
+    <div class="img-slide" data-img-order="3" data-show-img="false" data-img-clicked="false">
+      <img src="./imgs/image-3.jpg">
+    </div>
+    <div class="img-slide" data-img-order="4" data-show-img="false" data-img-clicked="false">
+      <img src="./imgs/image-4.jpg">
+    </div>
+    <div class="img-controller">
+      <button data-btn-order="1" data-pos-changed="false">clear</button>
+      <button data-btn-order="2" data-pos-changed="false">Light</button>
+      <button data-btn-order="3" data-pos-changed="false">Mid</button>
+      <button data-btn-order="4" data-pos-changed="false">Full</button>
+    </div>
+  </main>
+</body>
+
+</html>
